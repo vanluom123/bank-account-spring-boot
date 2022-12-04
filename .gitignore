@@ -44,6 +44,25 @@
 # *.iml
 # *.ipr
 
+# ignore .idea in bank-account, user-management, and api-gateway
+.idea/**
+
+# api gateway
+api-gateway/.idea/**
+api-gateway/*.iml
+
+# bank account
+bank-account/.idea/**
+bank-account/*.iml
+bank-account/**/*.iml
+bank-account/**/target
+
+# user management
+user-management/.idea/**
+user-management/*.iml
+user-management/**/*.iml
+user-management/**/target
+
 # CMake
 cmake-build-*/
 
